@@ -70,6 +70,10 @@ nav ul {
     padding: .75rem 0;
 }
 
+.container-mobile {
+    display:none;
+}
+
 /* === Product Grid === */
 
 .productGrid .container {
@@ -144,3 +148,27 @@ footer .container {
 
 
 /* === Media Queries === */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    
+    .container-mobile {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    nav .container {
+        display: none;
+    }
+
+    .listing {
+        width: 47%;
+    }
+
+    .glasses {
+        display: none;
+    }
+}
