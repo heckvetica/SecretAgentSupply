@@ -1,0 +1,146 @@
+/* === universal === */
+
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* === header === */
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.logo {
+    margin: auto 0.5rem;
+    height: 1.5rem;
+}
+
+header p {
+    margin: .66rem 1rem;
+    color: white;
+}
+
+/* === hero === */
+
+.hero {
+    background-image: url('../img/moto.jpeg');
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.herotext {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    width: 20rem;
+    margin-top: 9rem;
+    padding: 2rem 3rem;
+}
+
+.heroh1 {
+    font-size: 2rem;
+    margin-top: .25rem;
+}
+
+/* navbar */
+
+nav {
+    background-color: firebrick;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: .75rem 0;
+}
+
+/* === Product Grid === */
+
+.productGrid .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 3rem 0;
+    border: 4px solid black;
+    overflow: hidden;
+}
+
+.productimage {
+    height: 9rem;
+    margin: 2rem auto;
+    max-width: 100%;
+}
+
+.productText {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+/* === Details === */
+
+.details .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location,
+.hours {
+    width: 35%;
+    margin-bottom: 4rem;
+}
+
+.location p,
+.hours p {
+    margin-top: .25rem;
+}
+
+.details h4 {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+
+/* === Footer === */
+
+footer {
+    color: white;
+    background-color: black;
+    height: 5rem;
+    display: flex;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* === Media Queries === */

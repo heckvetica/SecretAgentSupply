@@ -5,52 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Secret Agent Supply Inc.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' href='./favicon.ico'>
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
 </head>
 <body>
     <header>
-        <img src="./resources/img/logo.png" alt="binocular logo">
-        <p>SECRET AGENT SUPPLY INC.</p>
+        <div class="container">
+            <img class="logo" src="./resources/img/logo.png" alt="binocular logo">
+            <p>SECRET AGENT SUPPLY INC.</p>
+        </div><!-- container -->
     </header>
     <div class="hero">
-        <p>NEW ARRIVAL</p>
-        <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        <div class="container">
+            <div class="herotext">
+                <p class='herop'>NEW ARRIVAL</p>
+                <h1 class='heroh1'>SPORT BIKES AND MOTORCYCLES</h1>
+            </div> <!-- herotext -->
+        </div><!-- container -->
     </div><!-- hero -->
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li>Eyewear</li>
-                <li>Apparel</li>
-                <li>Gadgets</li>
-                <li>Vehicles</li>
-                <li>Glasses</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </div><!-- navbar -->
+    <nav>
+        <ul class="container">
+            <li>Eyewear</li>
+            <li>Apparel</li>
+            <li>Gadgets</li>
+            <li>Vehicles</li>
+            <li>Classes</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
     <div class="productGrid">
-        <div class="listing">
-            <img class="pen productimage" src='./resources/img/pen.png' alt="exploding pen">
-            <p class="productText">Exploding Pen</p>
-        </div><!-- listing -->
-        <div class="listing">
-            <img class="watch productimage" src='./resources/img/watch.png' alt="cellular watch">
-            <p class="productText">Cellular Watch</p>
-        </div><!-- listing -->
-        <div class="listing">
-            <img class="glasses productimage" src='./resources/img/glasses.png' alt="thermal glasses">
-            <p class="productText">Thermal Glasses</p>
-        </div><!-- listing -->        
+        <div class="container">
+            <div class="listing">
+                <img class="productimage" src='./resources/img/pen.png' alt="exploding pen">
+                <p class="productText">Exploding Pen</p>
+            </div><!-- listing -->
+            <div class="listing">
+                <img class="productimage" src='./resources/img/watch.png' alt="cellular watch">
+                <p class="productText">Cellular Watch</p>
+            </div><!-- listing -->
+            <div class="listing">
+                <img class="productimage" src='./resources/img/glasses.png' alt="thermal glasses">
+                <p class="productText">Thermal Glasses</p>
+            </div><!-- listing -->        
+        </div><!-- container -->    
     </div><!-- productGrid -->
-    <div class="location">
-        <p>-47.346436, 84.32354</p>
-    </div><!-- location -->
-    <div class="hours">
-        <p>0800 - 1800</p>
-    </div><!-- hours -->
+    <div class="details">
+        <div class="container">
+            <div class="location">
+                <h4>Location</h4>
+                <p>-47.346436, 84.32354</p>
+            </div><!-- location -->
+            <div class="hours">
+                <h4>Hours</h4>
+                <p>0800 - 1800</p>
+            </div><!-- hours -->
+        </div><!-- container -->
+    </div><!-- details -->    
     <footer>
-        <p>&copy; Secret Agent Supply Inc.</p>
+        <div class="container">
+            <p>&copy; Secret Agent Supply Inc.</p>
+        </div><!-- container -->
     </footer>
 </body>
 </html>
