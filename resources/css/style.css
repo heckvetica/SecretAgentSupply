@@ -150,16 +150,19 @@ footer .container {
 /* === Media Queries === */
 
 @media screen and (max-width: 1024px) {
+    /* === global === */
+    
     .container {
         width: 100%;
     }
-    
+
     .container-mobile {
         display: flex;
         align-content: center;
         justify-content: center;
     }
 
+    /* === nav === */
     nav .container {
         display: none;
     }
@@ -168,7 +171,85 @@ footer .container {
         width: 47%;
     }
 
+    /* === listings === */
+
     .glasses {
         display: none;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    /* === header === (extra credit, as it matched the design, but not the redline. */
+    header .container {
+        justify-content: center;
+    }
+
+    header .container p {
+        display: none;
+    }
+
+    .logo {
+        margin: .66rem 1rem;
+    }
+
+    /* === hero === */
+    
+    .hero {
+        height: 15rem;
+    }
+
+    .herotext {
+        width: 100%;
+        margin-top: 10rem;
+        font-size: 0.77rem;
+        padding: 1rem 2rem;
+    }
+    
+    .heroh1 {
+        font-size: 1rem;
+        margin-top: .25rem;
+    }
+
+    /* === product grid === */
+
+    .productGrid .container {
+        justify-content: center;
+    }
+
+    .listing {
+        width: 90%;
+    }
+
+    .watch {
+        display: none;
+    }
+
+    /* === details === */
+
+    .details {
+        justify-content: center;
+    }
+
+    .details .container {
+        flex-flow: column;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    .location,
+    .hours {
+        width: 90%;
+        margin: auto;
+    }
+
+    .hours {
+        margin-top: 0.5rem;
+    }
+
+    /* === footer === */
+
+    footer .container p {
+        text-align: center;
     }
 }
